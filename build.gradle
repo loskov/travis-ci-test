@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+repositories {
+    // Spock releases are available from Maven Central
+    jcenter()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:1.1-groovy-2.4-rc-3"
+}
