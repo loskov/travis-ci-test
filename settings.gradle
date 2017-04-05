@@ -1,3 +1,4 @@
 include 'inner-module'
 findProject(':inner-module')?.name = 'inner-module'
+include 'inner2'
 

@@ -1,0 +1,12 @@
+version '0.0.3'
+
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.7
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:1.1-groovy-2.4-rc-3"
+}
